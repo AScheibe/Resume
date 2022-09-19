@@ -1,0 +1,214 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Alexander Scheibe} \\ \vspace{1pt}
+    \small 920-843-4844 $|$ \href{mailto:x@x.com}{avscheibe@wisc.edu} $|$ 
+    \href{https://github.com/...}{https://github.com/AScheibe}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Wisconsin - Madison}{Sep. 2021 -- Present}{Bachelor of Science in Computer Science and Data Science}{Madison, WI}
+      
+
+
+
+      \resumeItemListStart
+        \resumeItem{Cumulative GPA: 3.9/4.0}
+        \resumeItem{Dean's List (Fall 2021 - Present)}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+\resumeSubheading
+      {Information Technology Help Desk Specialist}{May 2022 -- Present}
+      {University of Wisconsin - Madison}{Madison, WI}
+          \resumeItemListStart
+            \resumeItem{Provide remote support for various university services in an efficient manner}
+            \resumeItem{Communicate with managers regarding complex issues}
+            \resumeItem{Train newly hired employees}
+            \resumeItemListEnd
+            
+\resumeSubheading
+      {Apple Certified Technician}{Sep. 2019 -- Aug. 2021}
+      {Computer World}{Appleton, WI}
+          \resumeItemListStart
+            \resumeItem{Diagnose and repair complex issues with Apple devices}
+            \resumeItem{Communicate with customers throughout the repair process}
+            \resumeItem{Work in a team-based environment on large scale repairs}
+            \resumeItemListEnd
+
+    \resumeSubheading
+      {Journalist}{Jan. 2017 -- Dec. 2020}
+      {Freedom Pursuit}{Freedom, WI}
+          \resumeItemListStart
+            \resumeItem{Local town newspaper}
+            \resumeItem{Conduct personal interviews with members of the community}
+            \resumeItem{Write engaging stories on controversial topics concerning the community}
+            \resumeItemListEnd
+
+
+
+\resumeSubHeadingListEnd
+
+%-----------Activities-----------
+\section{Activities}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+          {Computer Sciences Undergraduate Projects Lab}{Sep. 2021 -- Present}
+          {University of Wisconsin - Madison}{Madison, WI}
+          \resumeItemListStart
+            \resumeItem{Collaborate with fellow students on various Computer Science projects}
+            \resumeItem{Participate in "hackathon" events hosted by organizations associated with the lab and the lab itself}
+            \resumeItem{Contributed to the development of a full stack food pantry inventory application}
+            \resumeItem{Leading development on a full stack application that visualizes user data from Spotify}
+            \resumeItemListEnd
+        \resumeSubheading
+          {FIRST Robotics Competition}{Sep. 2017 --  Apr. 2022}
+          {Freedom High School      }{Freedom, WI}
+          \resumeItemListStart
+            \resumeItem{Teams have two months to build a robot from scratch with additional training and projects year round}
+            \resumeItem{Robots made to perform complex tasks such as PID based autonomous navigation and computer vision}
+            \resumeItem{Developed multiple desktop apps and websites from scratch to benefit the team}
+            \resumeItem{Learned how to write code and conduct massive projects in a team-based environment}
+            \resumeItem{2020 Dean’s List Finalist (founded by Dean Kamen, recognizes excellence in leadership and dedication to FIRST)}
+            \resumeItem{Team Captain / Lead Programmer / Mentor}
+        \resumeItemListEnd
+        \resumeSubheading
+          {Congressional App Challenge}{Sep. 2019 --  May 2021}
+          {Freedom High School      }{Freedom, WI}
+          \resumeItemListStart
+            \resumeItem{National application development competition hosted by Congress}
+            \resumeItem{Won in 2020}
+            \resumeItem{Developed a game in Java that introduces the concept of AI in a fun way to the everyday person}
+            \resumeItem{Developed a prompt based app that allows anyone to write G-code for a CNC machine with no prior experience}
+            \resumeItem{Served as a mentor for the competition my senior year of high school}
+        \resumeItemListEnd
+    \resumeSubHeadingListEnd
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+    \item{
+     \textbf{Languages}{: Java, Python, C/C++, C\# JavaScript, HTML/CSS, R, SQLite} \\
+     \textbf{Frameworks}{: Vue, React, JavaFX, JUnit, .Net, Vaadin, WPILib} \\
+     \textbf{Developer Tools}{: Git, SVN, Visual Studio, Visual Studio Code, RStudio, IntelliJ, Eclipse, Unity} \\
+     \textbf{Libraries}{: Tidyverse, Pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
